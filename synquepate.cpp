@@ -103,7 +103,7 @@ void synquepate_stable (t_synquepate *x, long val); //responce to the stable mes
 void *synquepate_class;
 
 
-int main(void)
+void ext_main(void *r)
 {	
 
 	
@@ -130,7 +130,6 @@ int main(void)
 	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
 	synquepate_class = c;
 	Kinetic_Register_Symbol();
-	return 0;
 }
 
 void synquepate_bang(t_synquepate *x)
@@ -285,7 +284,7 @@ void synquepate_setWeights(t_synquepate *x, long length, double * in_array) //cl
 	int i;
 	float position = 0.;
 	Atom tempAtom;
-	if (length != x->pulses)//if the array length differs from the stored array´s then allocate new memory
+	if (length != x->pulses)//if the array length differs from the stored arrayï¿½s then allocate new memory
 	{
 		if (x->pulses > 0)
 			position = (float)x->counter/(float)x->pulses;//store temporary the current position as a percentage of the total length

@@ -63,7 +63,7 @@ void kin_Edistance_anything(t_kin_Edistance *x, t_symbol *s, short argc, t_atom 
 void *kin_Edistance_class;
 
 
-int main(void)
+void ext_main(void *r)
 {	
 	// object initialization, OLD STYLE
 	// setup((t_messlist **)&kin_Edistance_class, (method)kin_Edistance_new, (method)kin_Edistance_free, (short)sizeof(t_kin_Edistance), 
@@ -88,7 +88,6 @@ int main(void)
 	kin_Edistance_class = c;
 	Kinetic_Register_Symbol();
 	post ("kin.Edistance: Created by George Sioros (2011)");
-	return 0;
 }
 
 void kin_Edistance_assist(t_kin_Edistance *x, void *b, long m, long a, char *s)

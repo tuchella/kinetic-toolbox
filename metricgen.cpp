@@ -46,7 +46,7 @@ typedef struct _metricgen
 	long		*indisp;
 	long		*M;
 	long		number_of_groups;//number of hierarchy groups used when converting pulse ranking to weights
-	long		*group;	//similar to factors but they don´t have to be prime numbers. used instead of the factors in converting ranking to weihgts 
+	long		*group;	//similar to factors but they donï¿½t have to be prime numbers. used instead of the factors in converting ranking to weihgts 
 	double		rangeFactor;//defines how weights are transalated into probabilities according to the groups
 
 
@@ -80,7 +80,7 @@ which uses the syncopationArray and syncopationStyleArray caclulated by such a c
 void *metricgen_class;
 
 
-int main(void)
+void ext_main(void *r)
 {	
 
 
@@ -103,7 +103,6 @@ int main(void)
 	metricgen_class = c;
 	Kinetic_Register_Symbol();
 	post("Kin.weights: was created by George Sioros (2010) after Clarence Barlow's Indispensability Algorithm");
-	return 0;
 }
 
 

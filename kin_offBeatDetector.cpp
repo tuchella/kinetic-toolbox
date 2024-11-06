@@ -75,7 +75,7 @@ void kin_offBeatDetector_outputScores (t_kin_offBeatDetector *x);
 void *kin_offBeatDetector_class;
 
 
-int main(void)
+void ext_main(void *r)
 {	
 
 	t_class *c;
@@ -96,7 +96,6 @@ int main(void)
 	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
 	kin_offBeatDetector_class = c;
 	Kinetic_Register_Symbol();
-	return 0;
 }
 
 void kin_offBeatDetector_assist(t_kin_offBeatDetector *x, void *b, long m, long a, char *s)

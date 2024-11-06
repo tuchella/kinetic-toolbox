@@ -65,7 +65,7 @@ void kin_dtw_output_matrix (t_kin_dtw *x);
 void *kin_dtw_class;
 
 
-int main(void)
+void ext_main(void *r)
 {	
 	// object initialization, NEW STYLE
 	t_class *c;
@@ -84,7 +84,6 @@ int main(void)
 	class_register(CLASS_BOX, c); /* CLASS_NOBOX */
 	kin_dtw_class = c;
 	Kinetic_Register_Symbol();
-	return 0;
 }
 
 void kin_dtw_assist(t_kin_dtw *x, void *b, long m, long a, char *s)

@@ -90,7 +90,7 @@ void beattracker_resetOscilator (t_beattracker *x);
 void *beattracker_class;
 
 
-int main(void)
+void ext_main(void *r)
 {	
 
 	t_class *c;
@@ -108,7 +108,6 @@ int main(void)
 
 	Kinetic_Register_Symbol();
 	post("kin.beattracker is based on the 'Adaptive Oscilators' in Robert Rowe's Machine Musicianship");
-	return 0;
 }
 
 void beattracker_assist(t_beattracker *x, void *b, long m, long a, char *s)
