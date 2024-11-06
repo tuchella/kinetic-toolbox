@@ -224,7 +224,7 @@ long kin_dtw_cost_matrix (t_kin_dtw *x)//calculate the cost matrix (could be in 
 		for ( _row = 1 ; _row < _rows ; _row++) //ROW --> is the right list
 		{
 
-			if ( x->l_radius <= 0 || (x->l_radius>0 && abs((double)(_col) * _slope -(_row))<(double)_radius) )//if within raidus limits or if no limits 
+			if ( x->l_radius <= 0 || (x->l_radius>0 && fabs((double)(_col) * _slope -(_row))<(double)_radius) )//if within raidus limits or if no limits 
 			{
 				//retreive minimum of neighbours
 				_min = kin_dtw_positive_minimum ( x->p_matrix[(_row)*_cols + (_col-1)],x->p_matrix[(_row-1)*_cols + (_col)] );
