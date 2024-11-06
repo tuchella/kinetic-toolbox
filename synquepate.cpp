@@ -33,6 +33,8 @@
 #include <float.h>
 #include "Kinetic.h"
 
+#define Atom t_atom
+
 #define		SYNQUEPATE_MIN_PROB_VALUE	0.02//this controls the behaviour of the exponantialy scaled probabilities (metricality) when some of the input  weights are 0
 ////////////////////////// object struct
 typedef struct _synquepate 
