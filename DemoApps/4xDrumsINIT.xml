@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "4xDrumsINIT">
+	<slot number = "1">
+		<pattr name = "CH1" value = "10" />
+		<pattr name = "Instr1" value = "0" />
+		<pattr name = "CH2" value = "10" />
+		<pattr name = "Instr2" value = "0" />
+		<pattr name = "CH3" value = "10" />
+		<pattr name = "Instr3" value = "0" />
+		<pattr name = "CH4" value = "10" />
+		<pattr name = "Instr4" value = "0" />
+		<pattr name = "Radius" value = "0.028571" />
+		<pattr name = "Angle" value = "270" />
+		<pattr name = "Density" value = "78.400002" />
+		<pattr name = "tempo" value = "100" />
+		<patcher name = "rhythmicator_app">
+			<pattr name = "Threshold" value = "0." />
+			<pattr name = "Stratification" value = "8n" />
+			<pattr name = "Radius" value = "0.028571" />
+			<pattr name = "Angle" value = "270" />
+			<pattr name = "Nominator" value = "4" />
+			<pattr name = "Denominator" value = "&quot;4&quot;" />
+			<pattr name = "Legato" value = "0." />
+			<pattr name = "Mute" value = "0." />
+			<pattr name = "Unstable" value = "0." />
+			<pattr name = "Hold" value = "0." />
+			<pattr name = "Density" value = "50.959999" />
+			<pattr name = "Amplitude" value = "0.784" />
+			<pattr name = "Notes" value = "35" />
+			<pattr name = "Staccato_Duration" value = "120" />
+			<pattr name = "Legato_Interval" value = "0" />
+			<pattr name = "u167000853" value = "-1" />
+		</patcher>
+		<patcher name = "rhythmicator_app[1]">
+			<pattr name = "Threshold" value = "0." />
+			<pattr name = "Stratification" value = "16n" />
+			<pattr name = "Radius" value = "0.028571" />
+			<pattr name = "Angle" value = "270" />
+			<pattr name = "Nominator" value = "4" />
+			<pattr name = "Denominator" value = "&quot;4&quot;" />
+			<pattr name = "Legato" value = "0." />
+			<pattr name = "Mute" value = "0." />
+			<pattr name = "Unstable" value = "0." />
+			<pattr name = "Hold" value = "0." />
+			<pattr name = "Density" value = "88.543777" />
+			<pattr name = "Amplitude" value = "1." />
+			<pattr name = "Notes" value = "85" />
+			<pattr name = "Staccato_Duration" value = "120" />
+			<pattr name = "Legato_Interval" value = "0" />
+			<pattr name = "u228000588" value = "-1" />
+		</patcher>
+		<patcher name = "rhythmicator_app[2]">
+			<pattr name = "Threshold" value = "0." />
+			<pattr name = "Stratification" value = "16n" />
+			<pattr name = "Radius" value = "0.028571" />
+			<pattr name = "Angle" value = "270" />
+			<pattr name = "Nominator" value = "4" />
+			<pattr name = "Denominator" value = "&quot;4&quot;" />
+			<pattr name = "Legato" value = "0." />
+			<pattr name = "Mute" value = "1." />
+			<pattr name = "Unstable" value = "0." />
+			<pattr name = "Hold" value = "0." />
+			<pattr name = "Density" value = "91.407837" />
+			<pattr name = "Amplitude" value = "1." />
+			<pattr name = "Notes" value = "69" />
+			<pattr name = "Staccato_Duration" value = "120" />
+			<pattr name = "Legato_Interval" value = "0" />
+			<pattr name = "u636000341" value = "-1" />
+		</patcher>
+		<patcher name = "rhythmicator_app[3]">
+			<pattr name = "Threshold" value = "0." />
+			<pattr name = "Stratification" value = "16n" />
+			<pattr name = "Radius" value = "0.028571" />
+			<pattr name = "Angle" value = "270" />
+			<pattr name = "Nominator" value = "4" />
+			<pattr name = "Denominator" value = "&quot;4&quot;" />
+			<pattr name = "Legato" value = "0." />
+			<pattr name = "Mute" value = "0." />
+			<pattr name = "Unstable" value = "0." />
+			<pattr name = "Hold" value = "0." />
+			<pattr name = "Density" value = "47.040001" />
+			<pattr name = "Amplitude" value = "1." />
+			<pattr name = "Notes" value = "80" />
+			<pattr name = "Staccato_Duration" value = "120" />
+			<pattr name = "Legato_Interval" value = "0" />
+			<pattr name = "u168000094" value = "-1" />
+		</patcher>
+		<patcher name = "patcher">
+			<pattr name = "Function1" value = "360. 0. 360. 0. 0. 0 91.914894 91.199997 0 187.659576 0. 0 187.659576 360. 0 273.829773 273.600006 0 360. 360. 0" />
+			<pattr name = "Function2" value = "360. 0. 1. 0. 0.32 0 90. 0.666667 0 195.319153 0.333333 0 270. 1. 0 360. 0.346667 0" />
+		</patcher>
+		<patcher name = "patcher[2]">
+			<pattr name = "Function3" value = "360. 0. 1. 0. 0.28 0 178.085114 0.293333 0 270. 1. 0 360. 0. 0" />
+		</patcher>
+		<patcher name = "patcher[1]">
+			<pattr name = "Function4" value = "360. 0. 360. 0. 0. 0 360. 360. 0" />
+		</patcher>
+	</slot>
+</pattrstorage>
+
