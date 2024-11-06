@@ -1,4 +1,4 @@
-include(${CMAKE_CURRENT_SOURCE_DIR}/../../source/max-sdk-base/script/max-pretarget.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../kin-pretarget.cmake)
 
 #############################################################
 # MAX EXTERNAL
@@ -21,4 +21,4 @@ add_library(
 	${PROJECT_SRC}
 )
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/../../source/max-sdk-base/script/max-posttarget.cmake)
+include(${CMAKE_CURRENT_SOURCE_DIR}/../../lib/max-sdk-base/script/max-posttarget.cmake)
