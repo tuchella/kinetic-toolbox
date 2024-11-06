@@ -62,13 +62,13 @@ void hop_in2(t_hop *x, long value);	// setup to receive the first int = window s
 void hop_in3(t_hop *x, long value);	// setup to receive the second int = hop size
 void *hop_new(double value);		// creates the new object
 void hop_free(t_hop *x);
-void hop_assist(t_hop *x, Object *b, long msg, long arg, char *s);
+void hop_assist(t_hop *x, void *b, long msg, long arg, char *s);
 //void hop_assist(t_hop *x, void *b, long m, long a, char *s);
 
 /**
  *	Setup our object
 */
-int main(void)
+void ext_main(void* r)
 {
 	//new style
 	t_class *c;
@@ -221,7 +221,7 @@ void hop_in3(t_hop *x, long value)
 	x->hop_size= value;	// Store the value of hop_size passed to inlet
 }
 
-void hop_assist(t_hop *x,Object *b,long msg,long arg,char *s)
+void hop_assist(t_hop *x,void *b,long msg,long arg,char *s)
 {	
 	if(msg==ASSIST_INLET)
 	{
